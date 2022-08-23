@@ -182,3 +182,33 @@ Again, **REFRAIN FROM DOING SO!** And let's quickly jump into implanting our saf
 
 We're going to set the Kali Linux repository we added as a low priority so that we don't accidentally upgrade from the repository and face loads of package conflicts!
 
+The magic command is:
+
+```bash
+sudo sh -c "echo 'Package: *'>/etc/apt/preferences.d/kali.pref; echo 'Pin: release a=kali-rolling'>>/etc/apt/preferences.d/kali.pref; echo 'Pin-Priority: 50'>>/etc/apt/preferences.d/kali.pref"
+```
+
+Now, if we update our cache again with `sudo apt update` , we'll see that all of our packages are up-to-date. *Phew!*
+
+## Having fun with the added power!
+---
+
+![Thanos saying I have the power](https://c.tenor.com/l1fTQixBIMoAAAAd/avengers-thanos.gif)
+
+We have the repositories set up and Infinite new possibilities in our hand. But we still have some follow-up process left!
+
+If we again try to get Nikto with `sudo apt install Nikto` , it will install, but it may not properly install the dependencies. Let's say APT just isn't powerful enough!
+
+To get around this, we're going to install a more convenient deb manager called *Aptitude* :
+
+```bash
+sudo apt install aptitude
+```
+
+See the irony? We're using APT to replace itself.
+
+Now, we're all set. Let's get our buddy *Nikto!*
+
+```Bash
+sudo aptitude install nikto
+```
