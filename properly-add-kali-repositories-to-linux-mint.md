@@ -212,3 +212,11 @@ Now, we're all set. Let's get our buddy *Nikto!*
 ```Bash
 sudo aptitude install nikto
 ```
+
+Which will output with the good news we all have been waiting for!
+
+```bash
+Preparing to unpack .../nikto_1%3a2.1.6+git20190310-0kali3_all.deb ...                                                 Unpacking nikto (1:2.1.6+git20190310-0kali3) ...                                                                       Setting up nikto (1:2.1.6+git20190310-0kali3) ... 
+```
+
+
