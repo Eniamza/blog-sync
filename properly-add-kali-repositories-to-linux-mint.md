@@ -173,4 +173,11 @@ Which should present more than a thousand packages ready to be upgraded!
 1731 packages can be upgraded. Run 'apt list --upgradable' to see them
 ```
 
-Again, **REFRAIN FROM DOING SO!** and let's quickly jump into implanting our safetynet before we do anything stupid (In w)
+Again, **REFRAIN FROM DOING SO!** And let's quickly jump into implanting our safety net before we do anything stupid (In which I'm good at)
+
+## Adding a safety net to prevent breaking upgrades!
+
+---
+
+We're going to set the Kali Linux repository we added as a low priority so that we don't accidentally upgrade from the repository and face loads of package conflicts!
+
