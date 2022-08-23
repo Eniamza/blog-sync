@@ -126,4 +126,24 @@ Next, We need to update our repository cache!
 sudo apt update
 ```
 
-Which should return an error because
+Which should return an error with an signature verification error
+
+```
+Get:5 https://mirrors.ocf.berkeley.edu/kali kali-rolling InRelease [30.5 kB]
+
+Err:5 https://mirrors.ocf.berkeley.edu/kali kali-rolling InRelease
+
+  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ED444FF07D8D0BF6
+
+Reading package lists... Done
+
+W: GPG error: https://mirrors.ocf.berkeley.edu/kali kali-rolling InRelease: The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ED444FF07D8D0BF6
+
+E: The repository 'https://http.kali.org/kali kali-rolling InRelease' is not signed.
+
+N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+
+N: See apt-secure(8) manpage for repository creation and user configuration details.
+```
+
+To fix that, we need to add the public key of this repo.
