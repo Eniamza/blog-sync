@@ -40,4 +40,4 @@ editPost:
 
 Since the launch in 2013, Kali Linux has been heartily welcomed by both Security Analyst and Script Kiddies.
 
-With the access to a vast number of toolsets and layers of securities it has been a favorite choice in the field of Penetration Testing, Security Research, Computer Forensics and Reverse Engineering. 
+With the access to a vast number of tool sets and layers of securities, it has been a favorite choice in the field of Penetration Testing, Security Research, Computer Forensics and Reverse Engineering. 
