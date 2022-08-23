@@ -60,14 +60,6 @@
                 "sortOrder": "alphabetical"
               }
             }
-          },
-          {
-            "id": "228bc3a6eebd3bd6",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
-            }
           }
         ]
       }
@@ -140,8 +132,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "74067deaac3967c1",
+  "active": "1a5a453189de5d91",
   "lastOpenFiles": [
+    "properly-add-kali-repositories-to-linux-mint.md",
     "README.md"
   ]
 }
