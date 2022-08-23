@@ -72,5 +72,27 @@ sudo apt update
 
 Which should output something similar to this:
 
+```Bash
+Reading package lists... Done
+
+Building dependency tree  
+
+Reading state information... Done
+
+All packages are up to date.
 ```
+
+Now, we are all set!
+
+Just to give your soul some peace, try installing a famous web vulnerability scanner:
+
+```BASH
+sudo apt install wpscan
 ```
+
+Which will return an error saying the package wasn't found:
+
+```Bash
+Reading package lists... Done Building dependency tree Reading state information... Done E: Unable to locate package wpscan
+```
+
