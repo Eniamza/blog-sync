@@ -49,4 +49,7 @@ Then comes the script-kiddies. Well, I don't usually like to use this term becau
 ## What the Duck are we doing?
 ---
 
-_ _
+- Prevent auto updates from Kali repositories to prevent breaking everything
+- Enable us to install any Kali apps right in our own Linux!
+- Enjoy a taste of Penetration Testing without any exhausting installation process.
+
