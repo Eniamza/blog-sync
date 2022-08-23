@@ -56,5 +56,21 @@ Then comes the script-kiddies. Well, I don't usually like to use this term becau
 ## Getting the system ready
 ---
 
-Before we 
+Before we begin, We need to update our usual repositories and upgrade our system so that we don't run into conflicts for obsolete packages.
 
+To achieve that, we need to run this simple command:
+
+```BASH
+sudo apt update && sudo apt full-upgrade -y
+```
+
+Which will update and upgrade all the available packages. After that, reboot the system and run:
+
+```BASH
+sudo apt update
+```
+
+Which should output something similar to this:
+
+```
+```
