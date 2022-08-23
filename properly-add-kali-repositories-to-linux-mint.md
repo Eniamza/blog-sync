@@ -166,3 +166,11 @@ Carefully, Run **update** command to update the repo cache:
 ```bash
 sudo apt update
 ```
+
+Which should present more than a thousand packages ready to be upgraded!
+
+```bash
+1731 packages can be upgraded. Run 'apt list --upgradable' to see them
+```
+
+Again, **REFRAIN FROM DOING SO!** and let's quickly jump into implanting our safetynet before we do anything stupid (In w)
