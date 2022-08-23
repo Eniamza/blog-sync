@@ -128,12 +128,12 @@ sudo apt update
 
 Which should return an error with an signature verification error
 
-```
+```bash
 Get:5 https://mirrors.ocf.berkeley.edu/kali kali-rolling InRelease [30.5 kB]
 
 Err:5 https://mirrors.ocf.berkeley.edu/kali kali-rolling InRelease
 
-  The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ED444FF07D8D0BF6
+The following signatures couldn't be verified because the public key is not available: NO_PUBKEY ED444FF07D8D0BF6
 
 Reading package lists... Done
 
@@ -146,4 +146,9 @@ N: Updating from such a repository can't be done securely, and is therefore disa
 N: See apt-secure(8) manpage for repository creation and user configuration details.
 ```
 
-To fix that, we need to add the public key of this repo.
+To fix that, we need to add the public key of this repo. We need a package called *GnuPG* for the purpose. Install it using:
+
+```Bash
+sudo apt install gnupg
+```
+
