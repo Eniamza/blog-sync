@@ -53,5 +53,8 @@ Then comes the script-kiddies. Well, I don't usually like to use this term becau
 - Enable us to install any Kali apps right in our own Linux!
 - Enjoy a taste of Penetration Testing without any exhausting installation process.
 
-## 
+## Getting the system ready
+---
+
+Before we 
 
