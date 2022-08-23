@@ -102,9 +102,14 @@ E: Unable to locate package wpscan
 
 Don't worry, this whole article is about fixing this!
 
-## Adding the Kali Rolling Respository
+## Adding the Kali Rolling Repository
 
 ---
 
+![](https://c.tenor.com/lBp_H83I7AEAAAAC/morpheus-matrix-fight.gif)
+
+We are going to install our Kali Linux Tools from this Repository:
+
+`https://http.kali.org/kali kali-rolling main non-free contrib`
 
 
