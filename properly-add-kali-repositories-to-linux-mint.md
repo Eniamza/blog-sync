@@ -178,6 +178,7 @@ Again, **REFRAIN FROM DOING SO!** And let's quickly jump into implanting our saf
 ## Adding a safety net to prevent breaking upgrades!
 
 ---
+![](https://c.tenor.com/w_wba2G4ipUAAAAC/stay-safe-safety.gif)
 
 We're going to set the Kali Linux repository we added as a low priority so that we don't accidentally upgrade from the repository and face loads of package conflicts!
 
