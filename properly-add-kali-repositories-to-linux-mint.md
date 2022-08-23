@@ -46,4 +46,7 @@ Then comes the script-kiddies. Well, I don't usually like to use this term becau
 
 **Note:** Though it should work across all Debian based distributions, But I've only this on Linux Mint.
 
-##
+## What the Duck are we doing?
+---
+
+_ _
