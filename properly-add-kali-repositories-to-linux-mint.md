@@ -112,4 +112,18 @@ We are going to install our Kali Linux Tools from this Repository:
 
 `https://http.kali.org/kali kali-rolling main non-free contrib`
 
+Let's add that to our sources list!
 
+```Bash
+sudo sh -c "echo 'deb https://http.kali.org/kali kali-rolling main non-free contrib' > /etc/apt/sources.list.d/kali.list"
+```
+
+This will create a new file called *kali.list* and add our desired repository.
+
+Next, We need to update our repository cache!
+
+```Bash
+sudo apt update
+```
+
+Which should return an error because
