@@ -40,4 +40,8 @@ editPost:
 
 Since the launch in 2013, Kali Linux has been heartily welcomed by both Security Analyst and Script Kiddies.
 
-With the access to a vast number of tool sets and layers of securities, it has been a favorite choice in the field of Penetration Testing, Security Research, Computer Forensics and Reverse Engineering. Not to mention we've also seen Elliot  **Mr Robot** Episodes
+With the access to a vast number of tool sets and layers of securities, it has been a favorite choice in the field of Penetration Testing, Security Research, Computer Forensics and Reverse Engineering. Not to mention we've also seen Elliot using Kali Linux in multiple **Mr Robot** Episodes.
+
+Then comes the script-kiddies. Well, I don't usually like to use this term because "Everyone starts somewhere". If some scripts gets you interested in Cyber Security, Welcome aboard!
+
+**Note:** Though it should work across all Debian based distributions, But I've only personally
