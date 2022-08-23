@@ -44,4 +44,4 @@ With the access to a vast number of tool sets and layers of securities, it has b
 
 Then comes the script-kiddies. Well, I don't usually like to use this term because "Everyone starts somewhere". If some scripts gets you interested in Cyber Security, Welcome aboard!
 
-**Note:** Though it should work across all Debian based distributions, But I've only personally
+**Note:** Though it should work across all Debian based distributions, But I've only this on Linux Mint. 
