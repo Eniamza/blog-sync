@@ -152,3 +152,17 @@ To fix that, we need to add the public key of this repo. We need a package calle
 sudo apt install gnupg
 ```
 
+And a few more commands:
+
+```bash
+wget 'https://archive.kali.org/archive-key.asc'
+sudo apt-key add archive-key.asc
+```
+
+We need to update the cache again, But **DO NOT UPGRADE THE SYSTEM YET, OR ELSE YOUR PC MIGHT NOT BOOT ANYMORE!**
+
+Carefully, Run **update** command to update the repo cache:
+
+```bash
+sudo apt update
+```
