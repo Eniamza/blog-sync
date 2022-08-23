@@ -93,6 +93,18 @@ sudo apt install wpscan
 Which will return an error saying the package wasn't found:
 
 ```Bash
-Reading package lists... Done Building dependency tree Reading state information... Done E: Unable to locate package wpscan
+Reading package lists... Done 
+
+Building dependency tree Reading state information... Done
+
+E: Unable to locate package wpscan
 ```
+
+Don't worry, this whole article is about fixing this!
+
+## Adding the Kali Rolling Respository
+
+---
+
+
 
