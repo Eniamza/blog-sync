@@ -31,20 +31,20 @@ editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
----
+
 
 ## Kali: The Phenomenon
 ---
 
 ![](https://c.tenor.com/73bhaYAl0moAAAAC/yes-oh.gif)
 
-Since the launch in 2013, Kali Linux has been heartily welcomed by both Security Analyst and Script Kiddies.
+Since its launch in 2013, Kali Linux has been heartily welcomed by both Security Analyst and Script Kiddies.
 
-With the access to a vast number of tool sets and layers of securities, it has been a favorite choice in the field of Penetration Testing, Security Research, Computer Forensics and Reverse Engineering. Not to mention we've also seen Elliot using Kali Linux in multiple **Mr Robot** Episodes.
+With the access to a vast number of toolsets and layers of securities, it has been a favorite choice in the field of Penetration Testing, Security Research, Computer Forensics and Reverse Engineering. Not to mention we've also seen Elliot using Kali Linux in multiple **Mr Robot** Episodes.
 
-Then comes the script-kiddies. Well, I don't usually like to use this term because "Everyone starts somewhere". If some scripts gets you interested in Cyber Security, Welcome aboard!
+Then comes the script-kiddies. Well, I don't usually like to use this term because "Everyone starts somewhere". If some scripts get you interested in Cyber Security, Welcome aboard!
 
-**Note:** Though it should work across all Debian based distributions, But I've only this on Linux Mint.
+**Note:** Though it should work across all Debian-based distributions, I've only this on Linux Mint.
 
 ## What the Duck are we doing?
 ---
@@ -56,7 +56,7 @@ Then comes the script-kiddies. Well, I don't usually like to use this term becau
 ## Getting the system ready
 ---
 
-Before we begin, We need to update our usual repositories and upgrade our system so that we don't run into conflicts for obsolete packages.
+Before we begin, We need to update our usual repositories and upgrade our system so that we don't run into conflicts with obsolete packages.
 
 To achieve that, we need to run this simple command:
 
@@ -126,7 +126,7 @@ Next, We need to update our repository cache!
 sudo apt update
 ```
 
-Which should return an error with an signature verification error
+Which should return an error with a signature verification error
 
 ```bash
 Get:5 https://mirrors.ocf.berkeley.edu/kali kali-rolling InRelease [30.5 kB]
@@ -141,12 +141,12 @@ W: GPG error: https://mirrors.ocf.berkeley.edu/kali kali-rolling InRelease: The 
 
 E: The repository 'https://http.kali.org/kali kali-rolling InRelease' is not signed.
 
-N: Updating from such a repository can't be done securely, and is therefore disabled by default.
+N: Updating from such a repository can't be done securely and is therefore disabled by default.
 
 N: See apt-secure(8) manpage for repository creation and user configuration details.
 ```
 
-To fix that, we need to add the public key of this repo. We need a package called *GnuPG* for the purpose. Install it using:
+To fix that, we need to add the public key to this repo. We need a package called *GnuPG* for the purpose. Install it using:
 
 ```Bash
 sudo apt install gnupg
@@ -161,7 +161,7 @@ sudo apt-key add archive-key.asc
 
 We need to update the cache again, But **DO NOT UPGRADE THE SYSTEM YET, OR ELSE YOUR PC MIGHT NOT BOOT ANYMORE!**
 
-Carefully, Run **update** command to update the repo cache:
+Carefully, Run the **update** command to update the repo cache:
 
 ```bash
 sudo apt update
@@ -188,16 +188,16 @@ The magic command is:
 sudo sh -c "echo 'Package: *'>/etc/apt/preferences.d/kali.pref; echo 'Pin: release a=kali-rolling'>>/etc/apt/preferences.d/kali.pref; echo 'Pin-Priority: 50'>>/etc/apt/preferences.d/kali.pref"
 ```
 
-Now, if we update our cache again with `sudo apt update` , we'll see that all of our packages are up-to-date. *Phew!*
+Now, if we update our cache again with `sudo apt update`, we'll see that all of our packages are up-to-date. *Phew!*
 
 ## Having fun with the added power!
 ---
 
 ![Thanos saying I have the power](https://c.tenor.com/l1fTQixBIMoAAAAd/avengers-thanos.gif)
 
-We have the repositories set up and Infinite new possibilities in our hand. But we still have some follow-up process left!
+We have the repositories set up and Infinite new possibilities in our hands. But we still have some follow-up process left!
 
-If we again try to get Nikto with `sudo apt install Nikto` , it will install, but it may not properly install the dependencies. Let's say APT just isn't powerful enough!
+If we again try to get Nikto with `sudo apt install Nikto`, it will install, but it may not properly install the dependencies. Let's say APT just isn't powerful enough!
 
 To get around this, we're going to install a more convenient deb manager called *Aptitude* :
 
@@ -232,8 +232,8 @@ Cheers!
 
 Though we have added more power on our side, We *must* remember some points before we proceed any further
 
-- You MUST NOT use Nikto or any other pentesting tools on any platform or individual users without prior permission of the owner!
-- Kali Linux comes with added security layers which might not be found in our personal Linux by default
+- You MUST NOT use Nikto or any other pen-testing tools on any platform or individual users without prior permission of the owner!
+- Kali Linux comes with added security layers that might not be found in our personal Linux by default
 - Always backup your system before doing something this drastic. A good tool would be the [TimeShift.](https://github.com/teejee2008/timeshift)
 
 See you soon in another alternative reality, Sayonara, my peeps!
