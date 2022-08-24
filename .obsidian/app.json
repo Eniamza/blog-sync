@@ -4,6 +4,7 @@
   "spellcheck": true,
   "communityPluginSortOrder": "download",
   "spellcheckDictionary": [
-    "kali"
+    "kali",
+    ""
   ]
 }

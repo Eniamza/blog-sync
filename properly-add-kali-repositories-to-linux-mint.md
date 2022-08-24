@@ -1,9 +1,9 @@
 ---
-title: "Properly install Kali Apps in Linux Mint, Ubuntu and Debian Based Distributions!"
+title: "Properly install Kali Apps in Linux Mint, Ubuntu, and Debian Based Distributions!"
 date: 2022-08-21
 # weight: 1
 # aliases: ["/first"]
-tags: ["Kali linux","Repository","add","install","metasploit","nikto","nmap","nethunter"]
+tags: ["Kali Linux","Repository","add","install","Metasploit","nikto","nmap","nethunter"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
@@ -220,3 +220,20 @@ Which will output with the good news we all have been waiting for!
 ```
 
 
+And again to calm our souls, let's poke our new friend with `nikto -h` :
+
+![Nikto help dialogue](https://i.imgur.com/NYldq50.png)
+
+Cheers!
+
+## Things to Remember
+
+---
+
+Though we have added more power on our side, We *must* remember some points before we proceed any further
+
+- You MUST NOT use Nikto or any other pentesting tools on any platform or individual users without prior permission of the owner!
+- Kali Linux comes with added security layers which might not be found in our personal Linux by default
+- Always backup your system before doing something this drastic. A good tool would be the [TimeShift.](https://github.com/teejee2008/timeshift)
+
+See you soon in another alternative reality, Sayonara, my peeps!

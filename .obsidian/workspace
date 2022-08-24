@@ -7,8 +7,12 @@
         "id": "69520d9726c55726",
         "type": "leaf",
         "state": {
-          "type": "empty",
-          "state": {}
+          "type": "markdown",
+          "state": {
+            "file": "properly-add-kali-repositories-to-linux-mint.md",
+            "mode": "source",
+            "source": false
+          }
         }
       },
       {
@@ -77,6 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "properly-add-kali-repositories-to-linux-mint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,8 +132,9 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "1a5a453189de5d91",
+  "active": "69520d9726c55726",
   "lastOpenFiles": [
+    "Pasted image 20220824003852.png",
     "properly-add-kali-repositories-to-linux-mint.md",
     "README.md"
   ]
