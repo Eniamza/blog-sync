@@ -4,6 +4,7 @@ date: 2022-08-14
 # weight: 1
 # aliases: ["/first"]
 tags: ["dictionary","10 million","cupp","python","custom password list","hacking","password crack", "effective wordlist"]
+categories: ["Cyber Security"]
 author: "Eniamza"
 # author: ["Me", "You"] # multiple authors
 showToc: true

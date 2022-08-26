@@ -4,6 +4,7 @@ date: 2022-08-19
 # weight: 1
 # aliases: ["/first"]
 tags: ["persistent","live","Bootable","Windows","Rufus","Live Linux","Linux Mint","Dual Boot","How To"]
+categories: ["Guide"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true

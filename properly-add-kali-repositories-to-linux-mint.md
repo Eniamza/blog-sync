@@ -4,6 +4,7 @@ date: 2022-08-21
 # weight: 1
 # aliases: ["/first"]
 tags: ["Kali Linux","Repository","add","install","Metasploit","nikto","nmap","nethunter"]
+categories: ["Guide","Cyber Security"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 showToc: true
