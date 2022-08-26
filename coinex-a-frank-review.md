@@ -12,8 +12,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Desc Text."
-canonicalURL: "https://canonical.url/to/page"
+description: "Struggling to find an exchange which doesn't require KYC and provide a decent daily exchange limit? Here's what I personally use"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
