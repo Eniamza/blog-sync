@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "coinex-a-frank-review.md",
+            "file": "properly-add-kali-repositories-to-linux-mint.md",
             "mode": "source",
             "source": false
           }
@@ -81,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "coinex-a-frank-review.md",
+                "file": "properly-add-kali-repositories-to-linux-mint.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,8 +134,8 @@
   },
   "active": "69520d9726c55726",
   "lastOpenFiles": [
-    "bittrex.com.md",
     "coinex-a-frank-review.md",
+    "bittrex.com.md",
     "properly-add-kali-repositories-to-linux-mint.md",
     "cupp-common-user-password-profiling.md",
     "full-linux-setup-on-usb-drive.md",
