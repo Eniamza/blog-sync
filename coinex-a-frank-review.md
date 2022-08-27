@@ -51,7 +51,7 @@ Always remember: **NOT YOUR KEYS, NOT YOUR COINS!**
 
 ----------
 
-[CoinEx]https://www.coinex.com/register?refer_code=5f437) is a cryptocurrency exchange based in Hong Kong, launched in 2017 and has been continuously growing since.
+[CoinEx](https://www.coinex.com/register?refer_code=5f437) is a cryptocurrency exchange based in Hong Kong, launched in 2017 and has been continuously growing since.
 
 After exploring quite a while, this struck me as any other general exchange. While the UI is clean and easy to use, I loved how distraction-free it was. Also, it has an AMM [Automated Market Maker], generally referred to as a Liquidity Pool, which I use quite often to make some quick bucks. 
 
