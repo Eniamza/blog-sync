@@ -1,5 +1,5 @@
 ---
-title: "CoinEX: my Personal Preference for Non-KYC Central Exchange"
+title: "CoinEX: my Personal Preference for Non-KYC Centralized Exchange"
 date: 2022-08-25
 # weight: 1
 # aliases: ["/first"]
@@ -12,7 +12,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "Struggling to find an exchange which doesn't require KYC and provide a decent daily exchange limit? Here's what I personally use"
+description: "Struggling to find an exchange that doesn't require KYC and provides a decent daily exchange limit? Here's what I personally use"
 disableHLJS: true # to disable highlightjs
 disableShare: false
 disableHLJS: false
@@ -23,10 +23,10 @@ ShowBreadCrumbs: true
 ShowPostNavLinks: true
 cover:
     image: "https://i.imgur.com/UtrPT1a.png" # image path/url
-    alt: "Eniamza with a exclaiming expression with CoinEx logo upon his head and a side text saying 'Centralizedd Exchange with a decent No KYC Limit'" # alt text
-    caption: "Eniamza with a exclaiming expression with CoinEx logo on his head" # display caption under cover
+    alt: "Eniamza with an exclaiming expression with CoinEx logo upon his head and a side text saying 'Centralized Exchange with a decent No KYC Limit'" # alt text
+    caption: "Eniamza with an exclaiming expression with CoinEx logo on his head" # display caption undercover
     relative: false # when using page bundles set this to true
-    hidden: true # only hide on current single page
+    hidden: true # only hide ona  current single page
 editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
@@ -37,9 +37,9 @@ editPost:
 ---
 ![](https://c.tenor.com/ux7xLcddb_wAAAAC/star-wars-kylo-ren.gif)
 
-Wait, Wait! Before you blow with a Bazooka, no I'm not a supporter of invading your privacy neither a fan of trading Government IDs in exchange for a platform.
+Wait, Wait! Before you blow with a Bazooka, no I'm not a supporter of invading your privacy nor a fan of trading Government IDs in exchange for a platform.
 
-After wandering around the land of CEX aka Centralized Exchanges, I came across CoinEX, a rising platform which isn't as ID hungry as others.
+After wandering around the land of CEX aka Centralized Exchanges, I came across CoinEX, a rising platform that isn't as ID hungry as others.
 
 While I still prefer DEX aka Decentralized Exchanges such as [Bisq](https://bisq.network/) or [BlockDX](https://blockdx.co/), this is just an option we are going to explore!
 
@@ -53,7 +53,7 @@ Always remember: **NOT YOUR KEYS, NOT YOUR COINS!**
 
 [CoinEx]https://www.coinex.com/register?refer_code=5f437) is a cryptocurrency exchange based in Hong Kong, launched in 2017 and has been continuously growing since.
 
-After exploring quite a while, this struck me as any other general exchange. While the UI is clean and easy to use, I loved how distraction free it was. Also, it has an AMM [Automated Market Maker], generally referred to as a Liquidity Pool, which I use quite often to make some quick bucks. 
+After exploring quite a while, this struck me as any other general exchange. While the UI is clean and easy to use, I loved how distraction-free it was. Also, it has an AMM [Automated Market Maker], generally referred to as a Liquidity Pool, which I use quite often to make some quick bucks. 
 
 **Note:** Liquidity Pools are exposed to the risk of Impermanent Loss
 
@@ -62,7 +62,7 @@ After exploring quite a while, this struck me as any other general exchange. Whi
 
 ----------
 
-The first thing I do before using any service is go to Google and write "[Coinex](https://www.coinex.com/register?refer_code=5f437) review” which presents a list of sites full of positive to negative reviews. As you can see, it has a great review on Trust Pilot!
+The first thing I do before using any service is going to Google and write "[Coinex](https://www.coinex.com/register?refer_code=5f437) review” which presents a list of sites full of positive to negative reviews. As you can see, it has a great review on Trust Pilot!
 
 ![CoinEX Screenshot score on trust pilot](https://i.imgur.com/wdpoXNI.png)
 
