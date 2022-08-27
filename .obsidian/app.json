@@ -5,6 +5,11 @@
   "communityPluginSortOrder": "download",
   "spellcheckDictionary": [
     "kali",
-    ""
+    "",
+    "CEX",
+    "CoinEX",
+    "CoinEx",
+    "BlockDX",
+    "Bisq"
   ]
 }
